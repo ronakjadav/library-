@@ -1,11 +1,11 @@
-.login {
+.registration {
     width: 100%;
     height: calc(100vh - 16px);
     display: flex;
     align-items: center;
     justify-content: center;
 
-    .login_box {
+    .registration_box {
         width: 100%;
         max-width: 500px;
         display: flex;
@@ -18,20 +18,14 @@
 
         h1 {
             margin: 0;
-            cursor: pointer;
         }
 
-        .login_box_inner {
+        .registration_box_inner {
             width: 100%;
             display: flex;
             flex-direction: column;
             gap: 20px;
-
-            .links {
-                color: #1976D2;
-                text-align: center;
-                cursor: pointer;
-            }
+           
         }
     }
 }
